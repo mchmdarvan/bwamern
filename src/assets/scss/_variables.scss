@@ -5,8 +5,6 @@
 
 // Color system
 
-
-
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $grays: map-merge(
@@ -23,8 +21,6 @@ $grays: map-merge(
 	),
 	$grays
 );
-
-
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -220,7 +216,7 @@ $grid-row-columns: 6 !default;
 $line-height-lg: 1.5 !default;
 $line-height-sm: 1.5 !default;
 
-$border-width: 1px !default;
+$border-width: 0 !default;
 $border-color: $gray-300 !default;
 
 $border-radius: 0.25rem !default;
@@ -299,7 +295,7 @@ $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
 
-$lead-font-size: $font-size-base * 1.25 !default;
+$lead-font-size: $font-size-base * 1.125 !default;
 $lead-font-weight: 300 !default;
 
 $small-font-size: 80% !default;
@@ -1065,7 +1061,7 @@ $breadcrumb-font-size: null !default;
 
 $breadcrumb-padding-y: 0.75rem !default;
 $breadcrumb-padding-x: 1rem !default;
-$breadcrumb-item-padding: 0.5rem !default;
+$breadcrumb-item-padding: 1.75rem !default;
 
 $breadcrumb-margin-bottom: 1rem !default;
 
